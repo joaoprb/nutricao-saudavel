@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrição Saudável</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <header>
+        <h1>nutrição <strong>saudável</strong> </h1>
+        <hr>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre</a>
+        </nav>
+    </header>
+    <main>
+
+        <span>Informe os seus dados para calcular o seu Gasto Energético Total:</span>
+
+        <form>
+            <label>Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome">
+            <label>Idade:</label>
+            <input type="text" id="idade" placeholder="Digite sua idade">
+            <label>Sexo:</label>
+            <select id="sexo" name="sexo">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+            </select>
+            <label>Peso:</label>
+            <input type="text" id="peso" placeholder="Digite seu peso em KG">
+            <label>Altura:</label>
+            <input type="text" id="altura" placeholder="Digite sua altura em CM">
+            <button type="button" onclick="calcularGET()">Calcular</button>
+
+            <div id="resultado"></div>
+        </form>
+    </main>
+
+    <footer>
+        <p >Copyright &lt;Nutrição Saudável /&gt; 2024</p>
+    </footer>
+</body>
+</html>
