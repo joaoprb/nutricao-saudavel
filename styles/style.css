@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Bebas Neue', sans-serif;
-    margin: 0;
+    margin: 0; 
     padding: 0;
     min-height: 100vh;
     display: flex;
@@ -10,45 +10,45 @@ body {
     background-color: #555;
 }
 
-header {
+.cabecalho {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
 }
 
-header h1 {
+.cabecalho h1 {
     margin: 0;
     font-size: 3rem;
 }
 
-header strong {
+.cabecalho strong {
     color: #1CDE66;
 }
 
-header nav {
+.cabecalho__links {
     margin-top: 20px;
 }
 
-header nav a {
+.cabecalho__links a {
     color: #fff;
     text-decoration: none;
     margin-right: 1.2rem;
     font-size: 2rem;
 }
 
-main {
+.conteudo {
     padding: 20px;
 }
 
-main span {
+.conteudo__mensagem {
     display: block;
     margin-bottom: 10px;
     text-align: center;
     color: #FFFFFF;
 }
 
-form {
+.formulario {
     max-width: 400px;
     margin: 0 auto;
     background-color: #f9f9f9;
@@ -57,14 +57,14 @@ form {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-form label {
+.formulario label {
     display: block;
     margin-bottom: 5px;
     font-size: 1.5rem;
 }
 
-form input[type="text"],
-form select {
+.formulario input[type="text"],
+.formulario select {
     width: calc(100% - 22px);
     padding: 8px;
     margin-bottom: 10px;
@@ -73,7 +73,7 @@ form select {
     box-sizing: border-box;
 }
 
-form button {
+.formulario button {
     background-color: #333;
     color: #fff;
     border: none;
@@ -84,7 +84,7 @@ form button {
     width: 100%;
 }
 
-form button:hover {
+.formulario button:hover {
     background-color: #555;
 }
 
@@ -115,14 +115,8 @@ section p {
     line-height: 1.6;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
 
-footer {
+.rodape {
     background-color: #1CDE66;
     font-size: 1rem;
     text-align: center;
